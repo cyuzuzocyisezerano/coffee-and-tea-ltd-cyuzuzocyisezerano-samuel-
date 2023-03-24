@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Our Tea</title>
+  <link rel="preconnect" href="http://fonts.googleapis.com">
+  <link rel="preconnect" href="http://fonts.gstatic.com" crossorigin>
+  <link href="http://fonts.googleapis.com/css2?fsmiy=Josefin+sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;0,600;0,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+<style>
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 2px solid #009688;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  color: #000;
+  background-color: #fff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ h2{
+    color: #fff;
+    text-align: center;
+  }
+  .ordernow{
+    position: absolute;
+    margin-left: 550px;
+  }
+</style>
+</head>
+<body>
+  <div class="banner">
+    <div>
+      <h1 style="color: white;text-align: center;">coffee<label style="color: #009688;"> and</label> tea <label style="color: #009688;">Ltd</label></h1>
+    </div>
+    <div class="navbar">
+      <a href="index.html"><img src="image/logo.png"height="60px"></a>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="our coffee.html">Our Coffee</a></li>
+        <li><a href="our tea.html">Our Tea</a></li>
+        <li><a href="about us.html">About Us</a></li>
+        <li><a href="contact us.html">Contact Us</a></li>
+
+      </ul>
+      
+    </div>
+
+<h2><label style="color: #009688;">Our</label> Tea</h2>
+
+<h2 style="font-size: 15px;">Most of Our Unique.</h2>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_5terre.jpg">
+      <img src="image/herbal tea.jpg" alt="Herbal tea" width="600" height="400">
+    </a>
+    <div class="desc"><b>Herbal Tea</b></div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_forest.jpg">
+      <img src="image/hong-kong-milk-tea.jpg" alt="hong-kong-milk-tea" width="600" height="400">
+    </a>
+    <div class="desc">Hong kong tea</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_lights.jpg">
+      <img src="image/rwanda tea.jpg" alt="rwanda tea" width="600" height="400">
+    </a>
+    <div class="desc">Rwanda tea</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_mountains.jpg">
+      <img src="image/twinings tea.jpg" alt="twinings tea" width="600" height="400">
+    </a>
+    <div class="desc">American tea</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+<div class="content" style="position: absolute;top: 530px;">
+      
+      <div class="ordernow">
+        <a href="order now.html"><button><span></span>Order Now</button></a>
+        <p id="btn">you have successfully made an order.</p>
+      </div>
+    </div>
+
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>order now</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/icon?family=Material+Icons">
+	<style type="text/css">
+		.left{
+			position: absolute;
+			left: 20px;
+			color: #fff;
+			padding: 12px;
+		}
+		.left ul{
+			list-style-type: upper-hexadecimal;
+
+		}
+		.left ul li{
+			padding: 15px;
+		}
+		.right{
+			position: absolute;
+			right: 10px;
+			color: #fff;
+			padding: 12px;
+		}
+		.right ul{
+			list-style-type: upper-hexadecimal;
+
+		}
+		.right ul li{
+			padding: 15px;
+		}
+		.middel{
+			position: absolute;
+			left: 550px;
+			top: 200px;
+			color: white;
+			padding: 12px;
+			border-radius: 12px 12px 12px 12px;
+			box-shadow: 12px 12px 12px 12px #009688;
+		}
+		
+		.form .box{
+			width: 100%;
+			height: 40px;
+		}
+		
+		.method .box{
+			width: 100%;
+			height: 30px;
+		}
+		
+		
+	</style>
+</head>
+<body>
+	<div class="banner">
+		<div>
+			<h1 style="color: white;text-align: center;">coffee<label style="color: #009688;"> and</label> tea <label style="color: #009688;">Ltd</label></h1>
+		</div>
+		<div class="navbar">
+			<a href="index.html"><img src="image/logo.png"height="60px"></a>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="our coffee.html">Our Coffee</a></li>
+				<li><a href="our tea.html">Our Tea</a></li>
+				<li><a href="about us.html">About Us</a></li>
+				<li><a href="contact us.html">Contact Us</a></li>
+
+			</ul>
+			
+		</div>
+	<div class="left">
+		<table border="1" style="border-color: #009688;">
+			<tr>
+		<td colspan="2"><h2>Coffee<label style="color: #009688;"> Menu</label></h2></td>
+	</tr>
+	<tr>
+				<td>Black Coffee</td><td>4000</td>
+			</tr>
+			<tr>
+				<td>American Coffee</td><td>3000</td>
+			</tr>
+			<tr>
+				<td>Rwandan Coffee</td><td>2500</td>
+			</tr>
+			<tr>
+				<td>Tanzanian Coffee </td><td>2000</td>
+				</tr>
+		</table>
+	</div>
+	<div class="form">
+	<div class="middel">
+		<h1>Enter <label style="color: #009688;">Your</label> Choice</h1>
+		<input type="text" name="product" placeholder="enter your choice" required class="box"><br>
+		<input type="text" name="price" placeholder="enter the price" class="box" required><br>
+		<div class="method">
+		<h2>Choose <label style="color: #009688;">payment</label> method</h2><br>
+		<input type="checkbox" name="MoMo" value="payment">MoMo
+		<input type="checkbox" name="Airtel-money" value="payment">Airtel Money<br>
+		<input type="text" name="phone" placeholder="+250..........." class="box" required><br>
+	</div>
+		<input type="submit" name="order" value="Make order" style="align-items: center; margin-left: 100px;color: white; background-color: #009688; border-radius: 12px 12px 12px; padding: 10px;"onclick="alert('you have successfully made an order');">
+	</div>
+</div>
+	<div class="right">
+		<table border="1" style="border-color: #009688;">
+			<tr>
+			<th colspan="2"><h2>Tea <label style="color: #009688;">Menu</label></h2>
+			</th>
+			<tr>
+				<td>Herbal Tea</td><td>4000</td>
+			</tr>
+			<tr>
+				<td>Hong Kong Tea</td><td>3000</td>
+			</tr>
+			<tr>
+				<td>Rwandan Tea</td><td>2500</td>
+			</tr>
+			<tr>
+				<td>American Tea</td><td>2000</td>
+			</tr>
+		</table>
+		</div>
+	</div>
+
+</body>
+</html>
